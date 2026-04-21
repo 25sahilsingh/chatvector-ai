@@ -13,6 +13,7 @@ const CodeBlock = ({
   language,
   code,
   className,
+  showLineNumbers,
 }: CodeBlockProps) => {
   if (filename) {
     return (
